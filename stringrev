@@ -1,0 +1,11 @@
+import java.util.*;
+import java.io.*;
+public class stringrev
+{
+public static void main(String[] s);
+{
+Scanner s=new Scanner(System.in);
+String a=s.nextLine();
+String s2=new StringBuffer(a).reverse().toString();
+System.out.println(s2);
+}}
