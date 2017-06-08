@@ -34,7 +34,7 @@ import java.util.Scanner;
 	            if(flag == 1)
 	            {
 	                count++;
-	                System.out.print(a[i]+" ");
+	                System.out.print(" "+a[i]+" ");
 	            }
                 }
 }    }	
