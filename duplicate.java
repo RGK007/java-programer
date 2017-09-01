@@ -6,6 +6,8 @@ public class duplicate {
 	Scanner sin=new Scanner(System.in);
 	System.out.println("enter the string");
 	String s=sin.nextLine();
+		if(s.length()>0)
+		{
 	char[] c=s.toCharArray();
 	LinkedHashSet<Character> sb=new LinkedHashSet<Character>();
 	for(int i=0;i<c.length;i++)
@@ -18,7 +20,8 @@ public class duplicate {
 		s1=s1+v;
 	}
 	System.out.println(s1);
-	
+		}else
+		System.out.print("inalid");
 	}
 
 }
