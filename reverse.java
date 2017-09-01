@@ -6,6 +6,8 @@ public class reverse {
 	Scanner sin=new Scanner(System.in);
 	System.out.println("enter the string");
 	String s=sin.nextLine();
+		if(s.length()>0)
+		{
 	String[] sb=s.split(" ");
 	for(int i=0;i<sb.length;i++)
 	{
@@ -17,6 +19,9 @@ for(int i=0;i<sb.length;i++)
 {
 	System.out.print(sb[i]+" ");
 }
+		}
+		else
+			System.out.print("Enter the string correctly");
 	}
 
 }
