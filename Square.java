@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Square {
 
     public static void main(String[] args) {
-        @SuppressWarnings("resource")
 		Scanner sc=new Scanner(System.in);int[] a=new int[8];
         System.out.println("enter 4 points as (x,y) coordinates");
         for(int i=0;i<8;i++)
